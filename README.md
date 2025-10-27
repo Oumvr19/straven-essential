@@ -192,8 +192,8 @@ Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de 
 
 **Oumar Straven**
 
-- GitHub: [@VOTRE_USERNAME](https://github.com/VOTRE_USERNAME)
-- Email: votre.email@example.com
+- GitHub: Oumvr19
+- Email: oumvr.strv@gmail.com
 
 ---
 
