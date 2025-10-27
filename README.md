@@ -10,9 +10,9 @@
 
 ## 🚀 Démo en Ligne
 
-**Visitez le dashboard** : [https://VOTRE_USERNAME.github.io/straven-essential/](https://VOTRE_USERNAME.github.io/straven-essential/)
+**Visitez le dashboard** : [https://oumvr19.github.io/straven-essential/](https://Oumvr19.github.io/straven-essential/)
 
-> ⚠️ Remplacez `VOTRE_USERNAME` par votre nom d'utilisateur GitHub
+
 
 ---
 
