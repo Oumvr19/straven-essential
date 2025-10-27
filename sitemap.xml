@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    
+    <!-- Page d'accueil -->
+    <url>
+        <loc>https://straven-essential.com/</loc>
+        <lastmod>2025-10-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://straven-essential.com/"/>
+    </url>
+    
+    <!-- Version 2 (si hébergée séparément) -->
+    <url>
+        <loc>https://straven-essential.com/html/version2/</loc>
+        <lastmod>2025-10-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Ajoutez d'autres pages si nécessaire -->
+    <!-- Exemple: Page À propos, Contact, etc. -->
+    
+</urlset>

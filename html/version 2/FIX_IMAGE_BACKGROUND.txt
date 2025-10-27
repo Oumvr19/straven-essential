@@ -1,0 +1,46 @@
+✅ PROBLÈME RÉSOLU - Image Background Header
+================================================
+
+PROBLÈME
+--------
+L'image de background du header n'apparaissait pas.
+
+CAUSE
+-----
+Le code était configuré pour utiliser "head_bg.webp" qui n'existe pas encore.
+Seul "head_bg.png" (3.7MB) existe actuellement.
+
+SOLUTION APPLIQUÉE
+------------------
+✅ Restauré les références au fichier PNG dans :
+   - html/version 2/index.html (ligne 47) : preload
+   - html/version 2/index.html (ligne 58) : critical CSS
+   - html/version 2/style.css (ligne 112) : background
+
+RÉSULTAT
+--------
+✅ L'image s'affiche maintenant correctement !
+
+PROCHAINE ÉTAPE (Recommandée pour Performance)
+-----------------------------------------------
+Convertir l'image en WebP pour réduire de 3.7MB → <100KB :
+
+1. Ouvrir https://squoosh.app
+2. Uploader img/head_bg.png
+3. Sélectionner WebP, qualité 75-80, resize 1920px
+4. Télécharger et renommer en head_bg.webp
+5. Placer dans img/
+
+Ou utiliser le script :
+   ./convert_hero_image.sh
+
+Gain attendu : -300ms LCP, score PageSpeed +10-15 points
+
+FICHIERS MODIFIÉS
+-----------------
+- html/version 2/index.html (2 emplacements)
+- html/version 2/style.css (1 emplacement)
+- NOTE_IMAGE_BACKGROUND.md (créé - instructions détaillées)
+- FIX_IMAGE_BACKGROUND.txt (ce fichier)
+
+Date : 27 octobre 2025

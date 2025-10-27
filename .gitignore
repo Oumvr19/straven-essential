@@ -1,0 +1,47 @@
+# ====================
+# GITIGNORE - STRAVEN ESSENTIAL
+# ====================
+
+# Dossiers de développement
+node_modules/
+.vscode/
+.idea/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Sauvegarde
+backup/
+*.backup
+
+# Environnement Python (si utilisé pour tests)
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Fichiers de build (si utilisation future)
+dist/
+build/
+
+# Versions alternatives (garder version 2 mais ignorer les tests)
+html/version 1/
+
+# Fichiers lourds non optimisés (optionnel)
+# img/*.png
+# Décommenter si vous avez converti toutes les images en WebP
+
+# Logs de diagnostic
+*.sh.log
+
+# VS Code
+.vscode/settings.json
+.vscode/tasks.json

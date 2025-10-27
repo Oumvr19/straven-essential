@@ -1,0 +1,23 @@
+# robots.txt - Straven Essential
+
+# Autoriser tous les robots d'exploration
+User-agent: *
+Allow: /
+
+# Bloquer les dossiers sensibles (si applicable)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+
+# Sitemap
+Sitemap: https://straven-essential.com/sitemap.xml
+
+# Crawl-delay (optionnel, évite la surcharge serveur)
+Crawl-delay: 1
+
+# Bots spécifiques
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        
+        <!-- Responsive viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- SEO: Title et Description optimisés -->
+        <title>Dashboard Applications | Straven Essential</title>
+        <meta name="description" content="Accédez en un clic à vos applications essentielles : Outlook, ChatGPT, GitHub, Google Colab, Clic et Maniweb. Tableau de bord centralisé pour étudiants et professionnels.">
+        
+        <!-- Canonical URL (à adapter selon votre domaine) -->
+        <link rel="canonical" href="https://straven-essential.com/">
+        
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://straven-essential.com/">
+        <meta property="og:title" content="Dashboard Applications | Straven Essential">
+        <meta property="og:description" content="Accédez en un clic à vos applications essentielles : Outlook, ChatGPT, GitHub, Google Colab, Clic et Maniweb.">
+        <meta property="og:image" content="https://straven-essential.com/img/og-image.png">
+        <meta property="og:locale" content="fr_FR">
+        <meta property="og:site_name" content="Straven Essential">
+        
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:url" content="https://straven-essential.com/">
+        <meta name="twitter:title" content="Dashboard Applications | Straven Essential">
+        <meta name="twitter:description" content="Tableau de bord centralisé pour accéder à vos applications essentielles en un clic.">
+        <meta name="twitter:image" content="https://straven-essential.com/img/og-image.png">
+        
+        <!-- Mots-clés (optionnel, faible impact SEO mais utile pour contexte) -->
+        <meta name="keywords" content="dashboard applications, tableau de bord, Outlook, ChatGPT, GitHub, Google Colab, productivité, étudiant, développeur">
+        <meta name="author" content="Oumar Straven">
+        
+        <!-- Robots -->
+        <meta name="robots" content="index, follow">
+        
+        <!-- Icônes -->
+        <link rel="icon" type="image/png" href="../../img/icons/favicon/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="../../img/icons/favicon/favicon.svg" />
+        <link rel="shortcut icon" href="../../img/icons/favicon/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../img/icons/favicon/apple-touch-icon.png" />
+        <link rel="manifest" href="../../img/icons/favicon/site.webmanifest" />
+        
+        <!-- PERFORMANCE: Preload ressources critiques -->
+        <link rel="preload" href="../../img/head_bg.png" as="image" type="image/png">
+        <link rel="preload" href="style.css" as="style">
+        
+        <!-- Preconnect pour fonts (Google Fonts) -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+        
+        <!-- CSS Critical (inline) -->
+        <style>
+            /* Critical CSS - Above the fold */
+            :root{--color-primary:#0F172A;--color-accent:#EC4899;--color-neutral-50:#F8FAFC;--color-neutral-200:#E2E8F0;--color-bg-primary:#FAFBFC;--font-heading:'Quicksand',sans-serif;--font-body:-apple-system,BlinkMacSystemFont,'Segoe UI','Roboto',sans-serif;--text-base:1rem;--text-4xl:2.5rem;--space-2:1rem;--space-4:2rem;--space-6:3rem;--radius-full:9999px}*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}body{font-family:var(--font-body);font-size:var(--text-base);line-height:1.6;color:var(--color-primary);background-color:var(--color-bg-primary);-webkit-font-smoothing:antialiased}.hero{position:relative;min-height:280px;display:flex;align-items:center;justify-content:center;background:url('../../img/head_bg.png') center/cover no-repeat;overflow:hidden}.hero-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,23,42,0.7) 0%,rgba(15,23,42,0.5) 100%);z-index:1}.hero-content{position:relative;z-index:2;text-align:center;padding:var(--space-6) var(--space-4);max-width:800px}.hero h1{font-size:var(--text-4xl);font-weight:700;color:#FFF;margin-bottom:var(--space-2);font-family:var(--font-heading)}
+        </style>
+        
+        <!-- CSS Full (defer load) -->
+        <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"></noscript>
+        <link rel="stylesheet" href="style.css">
+    </head>        <!-- Structured Data: ItemList des applications -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": "Applications Straven Essential",
+            "description": "Liste des applications disponibles sur le dashboard Straven Essential",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Microsoft Outlook",
+                    "description": "Messagerie professionnelle et gestion des emails",
+                    "url": "https://outlook.live.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Clic - Plateforme d'apprentissage",
+                    "description": "Plateforme éducative pour cours en ligne",
+                    "url": "https://clic.umoncton.ca/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "ChatGPT",
+                    "description": "Assistant IA conversationnel par OpenAI",
+                    "url": "https://chat.openai.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Google Colab",
+                    "description": "Environnement Jupyter notebooks Python en ligne",
+                    "url": "https://colab.research.google.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 5,
+                    "name": "GitHub",
+                    "description": "Plateforme de développement collaboratif et gestion de code",
+                    "url": "https://github.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 6,
+                    "name": "Maniweb",
+                    "description": "Système de gestion académique et administrative",
+                    "url": "https://www.umoncton.ca/maniweb/"
+                }
+            ]
+        }
+        </script>
+        
+        <!-- Structured Data: WebSite -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Straven Essential",
+            "url": "https://straven-essential.com/",
+            "description": "Tableau de bord centralisé pour accéder rapidement à vos applications essentielles",
+            "author": {
+                "@type": "Person",
+                "name": "Oumar Straven",
+                "jobTitle": "Développeur & Créateur"
+            },
+            "inLanguage": "fr-FR"
+        }
+        </script>
+    </head>
+    <body>
+        <!-- Hero Section / Header -->
+        <header class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Straven Dashboard</h1>
+                <p>Accédez à toutes vos applications essentielles en un seul clic</p>
+            </div>
+        </header>
+
+        <main>
+            <!-- Message de bienvenue -->
+            <section class="welcome">
+                <p>Bienvenue sur <strong class="brand-name">Straven Essential</strong>, votre espace centralisé pour une productivité optimale</p>
+            </section>
+            
+            <!-- Grille de cartes d'applications -->
+            <section class="apps-grid" aria-label="Applications disponibles">
+                <!-- Outlook -->
+                <article class="app-card">
+                    <div class="app-card-image">
+                        <img src="https://img.icons8.com/fluency/240/microsoft-outlook-2019.png" 
+                             alt="Icône Microsoft Outlook - Accéder à votre messagerie professionnelle" 
+                             width="80" 
+                             height="80"
+                             loading="lazy">
+                    </div>
+                    <div class="app-card-content">
+                        <h3>Outlook</h3>
+                        <p>Messagerie professionnelle</p>
+                    </div>
+                    <a href="https://outlook.live.com" target="_blank" rel="noopener noreferrer" class="app-card-link" aria-label="Ouvrir Microsoft Outlook dans un nouvel onglet">
+                        <span>Ouvrir</span>
+                        <svg class="icon-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </article>
+
+                <!-- Clic -->
+                <article class="app-card">
+                    <div class="app-card-image">
+                        <img src="https://img.icons8.com/fluency/240/classroom.png" 
+                             alt="Icône Clic - Accéder à la plateforme d'apprentissage en ligne" 
+                             width="80" 
+                             height="80"
+                             loading="lazy">
+                    </div>
+                    <div class="app-card-content">
+                        <h3>Clic</h3>
+                        <p>Plateforme d'apprentissage</p>
+                    </div>
+                    <a href="https://clic.umoncton.ca/" target="_blank" rel="noopener noreferrer" class="app-card-link" aria-label="Ouvrir Clic plateforme d'apprentissage dans un nouvel onglet">
+                        <span>Ouvrir</span>
+                        <svg class="icon-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </article>
+
+                <!-- ChatGPT -->
+                <article class="app-card">
+                    <div class="app-card-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" 
+                             alt="Logo ChatGPT OpenAI - Assistant intelligence artificielle conversationnel" 
+                             width="80" 
+                             height="80"
+                             loading="lazy">
+                    </div>
+                    <div class="app-card-content">
+                        <h3>ChatGPT</h3>
+                        <p>Assistant IA conversationnel</p>
+                    </div>
+                    <a href="https://chat.openai.com" target="_blank" rel="noopener noreferrer" class="app-card-link" aria-label="Ouvrir ChatGPT assistant IA dans un nouvel onglet">
+                        <span>Ouvrir</span>
+                        <svg class="icon-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </article>
+
+                <!-- Google Colab -->
+                <article class="app-card">
+                    <div class="app-card-image">
+                        <img src="https://colab.research.google.com/img/colab_favicon_256px.png" 
+                             alt="Logo Google Colab - Environnement Jupyter notebooks Python en ligne" 
+                             width="80" 
+                             height="80"
+                             loading="lazy">
+                    </div>
+                    <div class="app-card-content">
+                        <h3>Google Colab</h3>
+                        <p>Notebooks Python en ligne</p>
+                    </div>
+                    <a href="https://colab.research.google.com" target="_blank" rel="noopener noreferrer" class="app-card-link" aria-label="Ouvrir Google Colab notebooks Python dans un nouvel onglet">
+                        <span>Ouvrir</span>
+                        <svg class="icon-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </article>
+
+                <!-- GitHub -->
+                <article class="app-card">
+                    <div class="app-card-image">
+                        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
+                             alt="Logo GitHub - Plateforme de développement collaboratif et hébergement de code" 
+                             width="80" 
+                             height="80"
+                             loading="lazy">
+                    </div>
+                    <div class="app-card-content">
+                        <h3>GitHub</h3>
+                        <p>Plateforme de développement</p>
+                    </div>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="app-card-link" aria-label="Ouvrir GitHub plateforme de développement dans un nouvel onglet">
+                        <span>Ouvrir</span>
+                        <svg class="icon-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </article>
+
+                <!-- Maniweb -->
+                <article class="app-card">
+                    <div class="app-card-image">
+                        <img src="https://img.icons8.com/fluency/240/university.png" 
+                             alt="Icône Maniweb - Système de gestion académique et administrative universitaire" 
+                             width="80" 
+                             height="80"
+                             loading="lazy">
+                    </div>
+                    <div class="app-card-content">
+                        <h3>Maniweb</h3>
+                        <p>Gestion académique</p>
+                    </div>
+                    <a href="https://www.umoncton.ca/maniweb/" target="_blank" rel="noopener noreferrer" class="app-card-link" aria-label="Ouvrir Maniweb gestion académique dans un nouvel onglet">
+                        <span>Ouvrir</span>
+                        <svg class="icon-arrow" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </article>
+            </section>
+        </main>
+        
+        <!-- Footer / À propos -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h2>Oumar Straven</h2>
+                    <p class="footer-role">Développeur & Créateur</p>
+                    <p class="footer-bio">
+                        Étudiant en informatique appliquée, passionné par le machine learning, 
+                        le développement d'applications et le prototypage créatif. 
+                        J'allie sens du détail et créativité pour concevoir des outils utiles et élégants.
+                    </p>
+                    <div class="footer-cta">
+                        <span>Des idées d'applications à ajouter ?</span>
+                        <a href="mailto:contact@straven.com" class="cta-button">Faire une suggestion</a>
+                    </div>
+                </div>
+                
+                <div class="footer-avatar">
+                    <img src="../../img/proprietaire.png" alt="Photo de profil de Oumar Straven">
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
